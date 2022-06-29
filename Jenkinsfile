@@ -11,6 +11,10 @@ pipeline {
             steps {
                 sh 'dotnet build' 
             }
+
+            steps {
+                sh 'dotnet test' 
+            }
         }
         stage('TypeScript') {
             steps {
