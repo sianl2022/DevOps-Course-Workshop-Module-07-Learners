@@ -12,7 +12,7 @@ jobs:
       run: dotnet build
 
     - name: Run the C# tests
-      run: run dotnet test
+      run: dotnet test
 
     - name: Go into dotnet folder
       run: cd DotnetTemplate.Web
